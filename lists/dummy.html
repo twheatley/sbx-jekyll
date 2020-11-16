@@ -1,10 +1,11 @@
 ---
 ---
 <ul>
-    {% for member in site.data.us-dummy-500 %}
+    {% for c in site.data.us-dummy-500 %}
       <li>
-        <a href="https://github.com/{{ member.github }}">
-          {{ member.name }}
+
+        <a href="https://www.google.com/search?q={{ c.zip }}">
+          {{ c.company_name }}
         </a>
       </li>
     {% endfor %}

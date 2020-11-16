@@ -1,0 +1,11 @@
+---
+---
+<ul>
+    {% for member in site.data.us-dummy-500 %}
+      <li>
+        <a href="https://github.com/{{ member.github }}">
+          {{ member.name }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>
